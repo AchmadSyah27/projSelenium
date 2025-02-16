@@ -31,8 +31,8 @@ public class L04_Checkboxes {
 		//melakukan click button submit
 		driver.findElement(By.xpath("//label[@for='cb_green']")).click();
 		
-		state sudahTerceklist = System.out.println(
-				driver.findElement(By.xpath("//label[@for='cb_green']")).isSelected());
+//		state sudahTerceklist = System.out.println(
+//				driver.findElement(By.xpath("//label[@for='cb_green']")).isSelected());
 		
 		
 	}
